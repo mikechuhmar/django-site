@@ -1,6 +1,7 @@
 from django.shortcuts import render, get_object_or_404, render_to_response
 from .models import Category, Product
 from cart.forms import CartAddProductForm
+from cart.views import *
 # Create your views here.
 # Страница с товарами
 def ProductList(request, category_slug=None):
