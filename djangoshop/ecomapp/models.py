@@ -41,6 +41,5 @@ class Product(models.Model):
     price = models.DecimalField(max_digits=9, decimal_places=2)
     available = models.BooleanField(default=True)
 
-    def __str__(self):
-        
+    def __str__(self):        
         return self.name
