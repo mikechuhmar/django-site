@@ -42,4 +42,5 @@ class Product(models.Model):
     available = models.BooleanField(default=True)
 
     def __str__(self):
+        
         return self.name
